@@ -1,0 +1,18 @@
+Material, styleComponent
+"this keyword in js"
+
+
+function---- function abc(){
+    console.log(this);
+}
+abc();
+
+
+object ------ var a = {
+    var abc =  30;
+    console.log(this);
+    function abcd(){
+    var innerfunc = 60;
+    console.log("inner",this)
+    }
+}

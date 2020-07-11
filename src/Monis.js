@@ -9,7 +9,7 @@ class App extends React.Component {
 		data:{},
 	}
 
-   componentDidMount()
+  async componentDidMount()
  {
  	 const fetchedData = await fetchData();
 
